@@ -5,7 +5,8 @@ Author: Aaron Ferris
   
 UMLs Completed with: Erin Trainor, Jon Gentry, Cory Henderson  
   
-[LAB INSTRUCTIONS](./LAB.md)
+[LAB INSTRUCTIONS](./LAB.md)  
+[Latest Pull Request](https://github.com/codefellows-js-401d29-aaron-ferris/lab31/pull/1)
   
 ## Part 1: Connect to a Store  
   
