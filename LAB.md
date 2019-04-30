@@ -24,17 +24,17 @@ Once you have a good visual and mental model of how the application works, break
 ### Connect to a store
 For this assignment, you're going to take an existing component which puts out some random numbers when a div is clicked, and refactor it to use a Redux store instead of local state.
 
-[x] You've been provided starter code to work with - `app-state-connect`
-[x] Connect `index.js` to the redux store and pass it down to the `App` component
-[x] Remove the state declaration in the constructor
-  [x] Do you still need a constructor? if it's a function no, if it's a component maybe?
-[x] Bring in the actions to `app.js`
-[x] Map state and dispatch to props in `app.js`
-  [x] use `stuff` as your state keyword.
-[x]  Export the connected `App` component
-[x]  Render `this.props.stuff.foo` instead of `this.state.foo`
-[x] Remove the `handleChange()` method in `app.js`
-[x] Re-Implement the click event on the `<div>` using the action method that you mapped earlier
+* You've been provided starter code to work with - `app-state-connect`
+* Connect `index.js` to the redux store and pass it down to the `App` component
+* Remove the state declaration in the constructor
+  * Do you still need a constructor?
+* Bring in the actions to `app.js`
+* Map state and dispatch to props in `app.js`
+  * use `stuff` as your state keyword.
+* Export the connected `App` component
+* Render `this.props.stuff.foo` instead of `this.state.foo`
+* Remove the `handleChange()` method in `app.js`
+* Re-Implement the click event on the `<div>` using the action method that you mapped earlier
 
 
 ### Create a new reducer
